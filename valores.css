@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.select{
+    width: 100%;
+    /* position: absolute;
+    left: 20%;
+    top: 35%;
+    transform: translate(-50%,-50%); */
+}
+
+.selections{
+    display: flex;
+}
+
+.selections input{
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+}
+
+h2{
+    margin: 1.5%;
+}
+
+.header{
+    margin: 10% 2.4%;
+}
+
+.footer{
+    margin: 10% 0%;
+    text-align: center;
+}
+
+.footer input{
+    width: 30%;
+    padding: 2%;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.carta{
+    background-image:linear-gradient(rgb(234, 213, 56),rgb(206, 182, 2));
+    width: 70%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-bottom: 20%;
+}
+
+
+.carta input[type="button"]{
+    padding: 1.5% 2.3%;
+    background-color: transparent;
+    border: 0px;
+    font-size: 130%;
+    margin-right: 100%;
+}
+
+.carta input[type="text"]{
+    padding: 1.5% 2%;
+    background-color: transparent;
+    border: 0px;
+    font-size: 130%;
+    margin-right: 100%;
+    outline: none;
+}
+
+#pais{
+    padding: 1.5% 2%;
+    border: 0px;
+    margin-right: 100%;
+}
+
+#time{
+    padding: 1.5% 1.7%;
+    border: 0px;
+    margin-right: 100%;
+}
+
+.linha{
+    width: 97%;
+    height: 2px;
+    background-color: rgb(115, 115, 115);
+}
+
+.linhapai{
+    display: flex;
+    justify-content: center;
+}
+
+#playername{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+

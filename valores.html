@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Game</title>
+    <link rel="stylesheet" href="valores.css">
+    <script src="valores.js" async></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Selecione os valores dos atributos</h1>
+    </div>
+    <div class="select">
+        <div class="selections">
+            <input type="number" id="pac">
+            <h2>PAC</h2>
+        </div>
+        <div class="selections">
+            <input type="number" id="sho">
+            <h2>SHO</h2>
+        </div>
+        <div class="selections">
+            <input type="number" id="pas">
+            <h2>PAS</h2>
+        </div>
+        <div class="selections">
+            <input type="number" id="dri">
+            <h2>DRI</h2>
+        </div>
+        <div class="selections">
+            <input type="number" id="def">
+            <h2>DEF</h2>
+        </div>
+        <div class="selections">
+            <input type="number" id="phy">
+            <h2>PHY</h2>
+        </div>
+    </div>
+    <div class="footer">
+        <input type="button" value="Carregar" onclick="load(); return false">
+    </div>
+    <div class="card">
+    <div class="carta">
+        <div class="left">
+        <input type="button" value="OVER" id="nada">
+        <input type="text" placeholder="POS">
+        <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg" alt="País" width="11%" id="pais">
+        <img src="psg.png" alt="Time" width="12%" id="time">
+    </div>
+        
+        <div class="linhapai">
+        <div class="linha"></div>
+        </div> 
+        <input type="text" placeholder="Nome do Jogador" id="playername">
+    </div>
+</div>
+</body>
+</html>
